@@ -1,8 +1,8 @@
 <template>
   <div>
     <p>父级组件</p>
-    <childen :name="name"
-             @onUpdateName="onUpdateName"></childen>
+    <children :name="name"
+             @onUpdateName="onUpdateName"></children>
   </div>
 </template>
 <script>
