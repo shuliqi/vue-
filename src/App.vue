@@ -5,12 +5,15 @@
 </template>
 
 <script>
-// import parent from "./components/parent"; // props/$emit方式
+// 不同的通讯方式使用相应的示例代码来看
+
+// import parent from "./components/parent";
 // import parent from './components/parent|children/parent'
 // import parent from "./components/provide|inject/A";
 // import parent from "./components/ref|$refs/parent";
 // import parent from "./components/eventBus/A"
 import parent from "./components/$attrs|$listeners/A"
+
 export default {
   name: 'App',
   components: {
