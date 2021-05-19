@@ -2,7 +2,7 @@
   <div>
     <p>父级组件</p>
     <children :name="name"
-             @onUpdateName="onUpdateName"></children>
+              @onUpdateName="onUpdateName"></children>
   </div>
 </template>
 <script>

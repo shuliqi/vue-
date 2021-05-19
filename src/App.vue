@@ -5,7 +5,11 @@
 </template>
 
 <script>
-import parent from "./components/parent"
+// import parent from "./components/parent"; // props/$emit方式
+// import parent from './components/parent|children/parent'
+// import parent from "./components/provide|inject/A";
+// import parent from "./components/ref|$refs/parent";
+import parent from "./components/eventBus/A"
 export default {
   name: 'App',
   components: {
